@@ -8,7 +8,7 @@ class Application
 
     if hour < 12
       resp.write "Good Morning!"
-    elsif
+    elsif hour >= 12 
       resp.write "Good Afternoon!"
     end
 
